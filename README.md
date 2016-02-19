@@ -1,3 +1,10 @@
+#Description
+##Backend
+ - The backend creates a NodeJS server that sorts a JSON object
+
+##Frontend
+ - The frontend is a simple python program that sends a GET request to the NodeJS server, as well as passing a JSON object as a param
+
 #Dependencies
 ##Backend
  - [NodeJS](https://nodejs.org)
