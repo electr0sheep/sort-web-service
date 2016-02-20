@@ -4,10 +4,12 @@ import json
 import requests
 
 # set up an array of random length filled with random numbers
-length = random.randrange(1,20)
+length = random.randrange(2,20)
 numbers = np.ndarray(shape=length, dtype=np.int32)
+#numbers = np.ndarray(shape=length, dtype=np.float32)
 for x, value in np.ndenumerate(numbers):
-    num = random.randrange(99)
+    num = random.randint(0, 99)
+    #num = random.uniform(0, 99)
     numbers[x] = num
 
 # create JSON object and pass to web service
