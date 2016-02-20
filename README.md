@@ -1,9 +1,12 @@
 #Description
 ##Backend
- - The backend creates a NodeJS server that sorts a JSON object
+ - Creates a NodeJS server on localhost:3000 that sorts a JSON object
 
 ##Frontend
- - The frontend is a simple python program that sends a GET request to the NodeJS server, as well as passing a JSON object as a param
+ - Creates an array of random size between 2 and 20 filled with random integers between 0 and 99
+ - Converts array to a JSON object
+ - Passes JSON object to remote NodeJS server as a param
+ - Formats returned data and displays it
 
 #Dependencies
 ##Backend
